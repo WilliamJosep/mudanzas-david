@@ -12,11 +12,11 @@ padding:30px;
 }
 
 .hero{
-height:80vh;
-background:url("imagen/camion-mudanza.png") center/contain no-repeat;
-display:flex;
-align-items:center;
-justify-content:center;
+background: url("imagen/camion-mudanza.png") center/contain no-repeat;
+min-height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .hero-overlay{
