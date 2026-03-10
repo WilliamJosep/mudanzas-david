@@ -12,11 +12,12 @@ padding:30px;
 }
 
 .hero{
-background: url("imagen/camion-mudanza.png") center/contain no-repeat;
-min-height: 500px;
-display: flex;
-align-items: center;
-justify-content: center;
+background-image: url("imagen/camion-mudanza.png");
+background-size: contain;
+background-position: center bottom;
+background-repeat: no-repeat;
+height: 500px;
+position: relative;
 }
 
 .hero-overlay{
@@ -275,4 +276,25 @@ cursor:pointer;
 
 .galeria-grid img:hover{
 transform:scale(1.05);
+}
+
+.calculadora{
+max-width: 600px;
+margin: 60px auto;
+padding: 30px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.calculadora select,
+.calculadora button{
+margin: 10px;
+padding: 10px;
+font-size: 16px;
+}
+
+.calculadora h2{
+margin-bottom: 20px;
 }
